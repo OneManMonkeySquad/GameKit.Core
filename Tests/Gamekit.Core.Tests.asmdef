@@ -1,5 +1,5 @@
 {
-    "name": "Gamekit.Core.Tests",
+    "name": "GameKit.Core.Tests",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",

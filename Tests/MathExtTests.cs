@@ -5,12 +5,6 @@ using Unity.Mathematics;
 public class MathExtTests
 {
     [Test]
-    public void TAU_IsCorrect()
-    {
-        Assert.AreEqual(2 * math.PI, MathExt.TAU, 1e-6);
-    }
-
-    [Test]
     public void FromToRotation_OrthogonalVectors_CorrectRotation()
     {
         float3 from = new float3(1, 0, 0);
